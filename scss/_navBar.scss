@@ -1,0 +1,47 @@
+.navFondo {
+	border:double 5px $colorSecundario;
+	background-color: $colorPrincipal;
+
+
+	ul li a {
+	text-decoration: none;
+	color: white !important;
+	font-family:'Roboto', sans-serif;
+	width: 3rem;
+	font-size:2rem;
+	width: 100%;
+	margin-right: 25px;
+	margin-left:25px;
+
+				&:hover{
+				color: #D93A2B !important;
+				}
+
+			}
+
+}
+
+
+
+	
+.transform:hover{
+	transform: translateX(15px);
+	cursor: pointer;
+}
+
+.transformlogo:hover{
+	transform: rotateZ(-360deg);
+	cursor: pointer;
+	transition: transform 2s;
+}
+
+.btn-menu
+{
+    color: white;
+    font-size: 25px;
+    background: white;
+}
+
+
+
+
